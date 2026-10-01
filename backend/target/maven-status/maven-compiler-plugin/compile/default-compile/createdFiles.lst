@@ -1,0 +1,12 @@
+com/hcl/inventory/repository/UserRepository.class
+com/hcl/inventory/model/Role.class
+com/hcl/inventory/service/UserService.class
+com/hcl/inventory/model/Product.class
+com/hcl/inventory/service/ProductService.class
+com/hcl/inventory/repository/ProductRepository.class
+com/hcl/inventory/controller/CategoryController.class
+com/hcl/inventory/repository/CategoryRepository.class
+com/hcl/inventory/model/Category.class
+com/hcl/inventory/service/CategoryService.class
+com/hcl/inventory/controller/UserController.class
+com/hcl/inventory/controller/ProductController.class

@@ -1,0 +1,14 @@
+/Users/abhayraj/Downloads/inventory/src/main/java/com/hcl/inventory/InventoryApplication.java
+/Users/abhayraj/Downloads/inventory/src/main/java/com/hcl/inventory/controller/CategoryController.java
+/Users/abhayraj/Downloads/inventory/src/main/java/com/hcl/inventory/controller/ProductController.java
+/Users/abhayraj/Downloads/inventory/src/main/java/com/hcl/inventory/controller/UserController.java
+/Users/abhayraj/Downloads/inventory/src/main/java/com/hcl/inventory/model/Category.java
+/Users/abhayraj/Downloads/inventory/src/main/java/com/hcl/inventory/model/Product.java
+/Users/abhayraj/Downloads/inventory/src/main/java/com/hcl/inventory/model/Role.java
+/Users/abhayraj/Downloads/inventory/src/main/java/com/hcl/inventory/model/User.java
+/Users/abhayraj/Downloads/inventory/src/main/java/com/hcl/inventory/repository/CategoryRepository.java
+/Users/abhayraj/Downloads/inventory/src/main/java/com/hcl/inventory/repository/ProductRepository.java
+/Users/abhayraj/Downloads/inventory/src/main/java/com/hcl/inventory/repository/UserRepository.java
+/Users/abhayraj/Downloads/inventory/src/main/java/com/hcl/inventory/service/CategoryService.java
+/Users/abhayraj/Downloads/inventory/src/main/java/com/hcl/inventory/service/ProductService.java
+/Users/abhayraj/Downloads/inventory/src/main/java/com/hcl/inventory/service/UserService.java

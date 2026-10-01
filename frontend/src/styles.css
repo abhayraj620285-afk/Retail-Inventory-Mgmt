@@ -1,0 +1,40 @@
+:root{--bg:#f3f6fb;--card:#fff;--text:#1f2937;--muted:#6b7280;--primary:#2563eb;--primary-dark:#1d4ed8;--border:#e5e7eb;--danger:#dc2626}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Segoe UI',Roboto,Arial,sans-serif;background:var(--bg);color:var(--text)}
+h2,h3{margin:0}
+.page-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,.05);margin-bottom:16px;overflow-x:auto}
+.btn{border:1px solid var(--border);background:#fff;color:var(--text);padding:7px 14px;border-radius:8px;cursor:pointer;font-size:14px}
+.btn:hover{background:#f3f4f6}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.btn-primary{background:var(--primary);border-color:var(--primary);color:#fff}
+.btn-primary:hover{background:var(--primary-dark)}
+.btn-danger{color:var(--danger);border-color:#fecaca}
+.btn-danger:hover{background:#fef2f2}
+.btn-sm{padding:4px 10px;font-size:13px;margin-left:4px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{text-align:left;color:var(--muted);font-weight:600;padding:10px;border-bottom:1px solid var(--border);white-space:nowrap}
+td{padding:10px;border-bottom:1px solid #f1f5f9;vertical-align:middle}
+tr.low td{background:#fff7ed}
+.right{text-align:right;white-space:nowrap}
+.muted{color:var(--muted)}
+.form-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;align-items:end}
+.form-grid h3,.form-grid .actions,.form-grid .full{grid-column:1/-1}
+label{display:flex;flex-direction:column;gap:4px;font-size:13px;color:var(--muted);font-weight:600}
+input,select{padding:8px 10px;border:1px solid #d1d5db;border-radius:8px;font-size:14px;background:#fff;color:var(--text)}
+input:focus,select:focus{outline:2px solid #bfdbfe;border-color:var(--primary)}
+.actions{display:flex;gap:8px}
+.alert{padding:10px 14px;border-radius:8px;margin-bottom:14px;font-size:14px}
+.alert-error{background:#fef2f2;color:#991b1b;border:1px solid #fecaca}
+.alert-ok{background:#f0fdf4;color:#166534;border:1px solid #bbf7d0}
+.badge{padding:3px 10px;border-radius:999px;font-size:12px;font-weight:600;background:#e5e7eb}
+.s-PENDING,.s-PLACED{background:#fef3c7;color:#92400e}
+.s-ORDERED,.s-SHIPPED{background:#dbeafe;color:#1e40af}
+.s-RECEIVED,.s-DELIVERED,.s-IN{background:#dcfce7;color:#166534}
+.s-CANCELLED,.s-OUT{background:#fee2e2;color:#991b1b}
+.s-TRANSFER{background:#ede9fe;color:#5b21b6}
+.stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px;margin-bottom:16px}
+.stat{background:#fff;border:1px solid var(--border);border-radius:12px;padding:16px}
+.stat b{display:block;font-size:28px;color:var(--primary)}
+.stat span{color:var(--muted);font-size:13px}
+.item-row{display:grid;grid-template-columns:2fr 1fr 1fr auto;gap:10px;align-items:end;margin-bottom:8px}
